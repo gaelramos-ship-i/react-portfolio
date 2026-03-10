@@ -1,0 +1,18 @@
+@import'./variables';
+
+.navbar{
+    display: flex;
+    gap: 40px;
+}
+
+a{
+    color: $fontColor;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover{
+    color: $colorHover;
+}
+

@@ -6,7 +6,7 @@ const Home = () => {
     return (
     <>
     <header>
-        <h1>Portfolio Gaël</h1>
+        <a id='title' href="/">Portfolio</a>
         <Navbar />
     </header>
 
