@@ -1,1 +1,40 @@
 @import'./global.scss';
+
+section{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+section article{
+    width: 50%;
+    line-height: 1.5rem;
+}
+
+h1{
+    color: $second-color;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+p{
+    color: $fontColor;
+    margin-bottom: 40px;
+}
+
+article a{
+    background: $gradient;
+    color: $second-color;
+    border-radius: 25px;
+    padding: 15px 20px;
+    transition: 0.3s ease-out;
+}
+
+article a:hover{
+    color: $colorHover;
+    background: $primary-color;
+    border: solid 1px $colorHover;
+    transition: 0.3s ease-out;
+}
