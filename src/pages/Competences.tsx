@@ -3,7 +3,7 @@ import data from '../data/competences.json';
 const  Competences = () => {
     return (
     <>
-    <section>
+    <section id='skill'>
         <h2>Mes <span>compétences</span></h2>
         <div>
             {data.map((competence) => (
