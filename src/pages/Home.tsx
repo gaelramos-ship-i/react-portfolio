@@ -1,6 +1,8 @@
 import Navbar from '../components/Navbar.tsx'
 import Footer from '../components/Footer.tsx'
+import Competences from './Competences.tsx';
 import '../styles/home.scss'
+import '../styles/competences.scss'
 
 const Home = () => {
     return (
@@ -21,6 +23,7 @@ const Home = () => {
                 {/* <img src="/" alt="Photo Gaël" /> */}
             </article>
         </section>
+        <Competences/>
     </main>
 
     <Footer/>
