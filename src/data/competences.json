@@ -2,36 +2,36 @@
     {
         "id": 1,
         "title": "HTML/CSS",
-        "image": "public/images/telechargement-removebg-preview.png"
+        "image": "/images/telechargement-removebg-preview.png"
     },
     {
         "id": 2,
         "title": "Javascript",
-        "image": "public/images/JavaScript-Logo.png"
+        "image": "/images/JavaScript-Logo.png"
     },
     {
         "id": 3,
         "title": "React",
-        "image": "public/images/react-1-logo-png-transparent.png"
+        "image": "/images/react-1-logo-png-transparent.png"
     },
     {
         "id": 4,
         "title": "PHP",
-        "image": "public/images/png-clipart-php-web-development-perl-logo-php-logo-cdr-text.png"
+        "image": "/images/png-clipart-php-web-development-perl-logo-php-logo-cdr-text.png"
     },
     {
         "id": 5,
         "title": "Python",
-        "image": "public/images/telechargement-removebg-preview.png"
+        "image": "/images/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn-removebg-preview.png"
     },
     {
         "id": 6,
         "title": "SQL/Mongo",
-        "image": "public/images/telechargement-removebg-preview.png"
+        "image": "/images/mongodbtosqlserver-removebg-preview.png"
     },
     {
         "id": 7,
         "title": "WordPress",
-        "image": "public/images/telechargement-removebg-preview.png"
+        "image": "/images/hd-wordpress-logo-symbol-transparent.png"
     }
 ]
