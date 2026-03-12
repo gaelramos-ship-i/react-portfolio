@@ -14,12 +14,11 @@ h2 span{
 section div{
     display: flex;
     text-align: center;
-    align-items: center;
     object-fit: contain;
     gap: 20px;
 }
 
-img{
+#skill img{
     width: 60%;
     aspect-ratio: 1/1;
     object-fit: cover;

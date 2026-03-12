@@ -1,14 +1,20 @@
 [
     {
         "id": 1,
-        "title": "Application de recettes",
-        "description": "Une application de recettes avec filtrage et recherche.",
-        "image": ""
+        "title": "Brigitte Bee",
+        "description": "Intégration HTML/CSS d'une Galerie d'art.",
+        "image": "/images/10-600x400.jpg"
     },
     {
         "id": 2,
+        "title": "MeteoAPI",
+        "description": "Une API de Meteo, en Javascript.",
+        "image": "/images/10-600x400.jpg"
+    },
+    {
+        "id": 3,
         "title": "To do List",
-        "description": "Une application de tâches avec persistance locale.",
-        "image": ""
+        "description": "Gestionnaire de tâches en PHP",
+        "image": "/images/10-600x400.jpg"
     }
 ]

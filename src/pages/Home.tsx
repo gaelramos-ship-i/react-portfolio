@@ -1,8 +1,10 @@
 import Navbar from '../components/Navbar.tsx'
 import Footer from '../components/Footer.tsx'
 import Competences from './Competences.tsx';
-import '../styles/home.scss'
-import '../styles/competences.scss'
+import Projects from './Projects.tsx';
+import '../styles/home.scss';
+import '../styles/competences.scss';
+import '../styles/projects.scss';
 
 const Home = () => {
     return (
@@ -24,6 +26,7 @@ const Home = () => {
             </article>
         </section>
         <Competences/>
+        <Projects/>
     </main>
 
     <Footer/>
