@@ -3,18 +3,18 @@
         "id": 1,
         "title": "Brigitte Bee",
         "description": "Intégration HTML/CSS d'une Galerie d'art.",
-        "image": "/images/10-600x400.jpg"
+        "image": "./images/10-600x400.jpg"
     },
     {
         "id": 2,
         "title": "MeteoAPI",
         "description": "Une API de Meteo, en Javascript.",
-        "image": "/images/10-600x400.jpg"
+        "image": "./images/10-600x400.jpg"
     },
     {
         "id": 3,
         "title": "To do List",
         "description": "Gestionnaire de tâches en PHP",
-        "image": "/images/10-600x400.jpg"
+        "image": "./images/10-600x400.jpg"
     }
 ]

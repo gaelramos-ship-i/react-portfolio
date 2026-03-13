@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
+import Footer from '../components/Footer.tsx';
 import data from '../data/projects.json';
 
 type Project ={
@@ -23,8 +24,9 @@ const Projects = () => {
     );
 
     return(
-        <section>
-            <h2>Mes projets</h2>
+        <>
+        <section id="sectionPro">
+            <h2>Mes <span>projets</span></h2>
 
             <input
                 type="text"
@@ -48,6 +50,9 @@ const Projects = () => {
                 )}
             </div>
         </section>
+
+        <Footer/>
+        </>
     );
 };
 

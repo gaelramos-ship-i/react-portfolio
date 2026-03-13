@@ -1,0 +1,43 @@
+@import'./variables';
+
+.sectionContact h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+    span{
+        color: $colorHover;
+    }
+}
+
+.sectionContact div{
+    width: 50%;
+    margin: auto;
+    background: $backCard;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    p{
+        color: $fontColor;
+    }
+}
+
+.sectionContact article{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: $fontColor;
+    p{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
+
+svg{
+    font-size: 30px;
+}
+
+#flex{
+    display: flex;
+    width: 60%;
+    gap: 20px;
+}

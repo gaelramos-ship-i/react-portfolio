@@ -3,7 +3,6 @@
 section{
     max-width: 1440px;
     margin: auto;
-    justify-content: space-between;
     padding: 50px 100px;
 }
 
@@ -18,7 +17,13 @@ h1{
     margin-bottom: 40px;
 }
 
-p{
+#presentation h2{
+    color: $second-color;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#presentation p{
     color: $fontColor;
     margin-bottom: 40px;
 }
