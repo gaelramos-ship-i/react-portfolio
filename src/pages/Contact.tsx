@@ -4,7 +4,6 @@ import { IoIosPhonePortrait } from "react-icons/io";
 
 const  Contact = () => {
     return(
-    <>
     <div className='sectionContact'>
         <h1>Mon <span>contact</span></h1>
 
@@ -22,7 +21,6 @@ const  Contact = () => {
             </div>
         </div>
     </div> 
-    </>
     )
 };
 

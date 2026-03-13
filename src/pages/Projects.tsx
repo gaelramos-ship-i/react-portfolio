@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import Footer from '../components/Footer.tsx';
 import data from '../data/projects.json';
 
 type Project ={
@@ -13,31 +12,19 @@ type Project ={
 const Projects = () => {
 
     const [projects, setProjects] = useState<Project[]>([]);
-    const [search, setSearch] = useState('');
 
     useEffect(()=>{
         setProjects(data)
     }, []);
-
-    const filteredProjects = projects.filter((project) =>
-        project.title.toLowerCase().includes(search.toLowerCase())
-    );
 
     return(
         <>
         <section id="sectionPro">
             <h2>Mes <span>projets</span></h2>
 
-            <input
-                type="text"
-                placeholder="Rechercher un projet..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-            />
-
             <div className="project-list">
-                {filteredProjects.length > 0 ? (
-                    filteredProjects.map((project) => (
+                {projects.length > 0 ? (
+                    projects.map((project) => (
                         <ProjectCard
                             key={project.id}
                             title={project.title}
@@ -46,12 +33,10 @@ const Projects = () => {
                         />
                     ))
                 ) : (
-                    <p>Aucun projet ne correspond à votre recherche.</p>
+                    <p>Aucun projet disponible.</p>
                 )}
             </div>
         </section>
-
-        <Footer/>
         </>
     );
 };

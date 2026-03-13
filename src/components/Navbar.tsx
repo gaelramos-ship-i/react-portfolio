@@ -6,7 +6,7 @@ const Navbar = () => (
     <nav className='navbar'>
         <Link to="/">Accueil</Link>
         <HashLink smooth to="/#skill">Compétences</HashLink>
-        <Link to="/projects">Projects</Link>
+        <HashLink smooth to="/#projects">Projects</HashLink>
         <Link to="/contact">Contact</Link>
     </nav>
 );

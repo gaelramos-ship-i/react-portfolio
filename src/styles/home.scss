@@ -42,3 +42,16 @@ article a:hover{
     border: solid 1px $colorHover;
     transition: 0.3s ease-out;
 }
+
+#sectionImage{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sectionImage img{
+    width: 40%;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 30%;
+}

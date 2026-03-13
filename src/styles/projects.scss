@@ -7,24 +7,32 @@
     width: 100%;
     border-radius: 20px;
     margin-top: 20px;
+    height: 10%;
 }
 
 .project-card img{
     width: 100%;
     border-radius: 20px;
-}
-
-.project-card h3{
-    margin: 10px;
+    aspect-ratio: 1.5;
+    object-fit: cover;
 }
 
 #sectionPro h2{
     color: $second-color;
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 20px;
+    span{
+        color: $colorHover;
+    }
 }
 
 .project-card p{
     color: #fff;
-    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.project-list{
+    gap: 40px;
 }
