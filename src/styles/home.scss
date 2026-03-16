@@ -28,7 +28,7 @@ h1{
     margin-bottom: 40px;
 }
 
-article a{
+#sectionImage article a{
     background: $gradient;
     color: $second-color;
     border-radius: 25px;
@@ -36,7 +36,7 @@ article a{
     transition: 0.3s ease-out;
 }
 
-article a:hover{
+#sectionImage article a:hover{
     color: $colorHover;
     background: $primary-color;
     border: solid 1px $colorHover;

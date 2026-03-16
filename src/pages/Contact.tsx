@@ -1,10 +1,11 @@
 import'../styles/contact.scss';
 import { CiMail } from "react-icons/ci";
 import { IoIosPhonePortrait } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
 
 const  Contact = () => {
     return(
-    <div className='sectionContact'>
+    <div id='sectionContact'>
         <h1>Mon <span>contact</span></h1>
 
         <div>
@@ -17,6 +18,12 @@ const  Contact = () => {
                 <article>
                     <IoIosPhonePortrait />
                     <p>07 66 27 10 20</p>
+                </article>
+                <article>
+                    <FaGithub />
+                    <a href="https://github.com/gaelramos-ship-i">
+                        <p>gaelramos-ship-i</p>
+                    </a>
                 </article>
             </div>
         </div>
