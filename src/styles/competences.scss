@@ -29,8 +29,31 @@ section div{
     text-align: center;
 }
 
-
 h3{
     color: $second-color;
     font-size: 20px;
+}
+
+@media screen and (max-width:1024px) {
+
+    #skill div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    #skill{
+        padding: 20px;
+        div{
+            display: block;
+        }
+    }
+
+    .artBack{
+        padding: 10px 0;
+        margin-bottom: 40px;
+    }
 }

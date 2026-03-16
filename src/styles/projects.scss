@@ -6,7 +6,7 @@
     display: block;
     width: 100%;
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 10%;
 }
 
@@ -35,4 +35,26 @@
 
 .project-list{
     gap: 40px;
+}
+
+@media screen and (max-width:1024px) {
+
+    .project-card{
+        margin-bottom: 10%;
+    }
+
+    .project-list{
+        display: block;
+    }
+
+    #flex{
+        display: block;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    #sectionPro{
+        padding: 20px;
+    }
 }

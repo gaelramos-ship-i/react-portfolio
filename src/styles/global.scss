@@ -33,3 +33,40 @@ footer{
     padding: 40px;
     color: $fontColor;
 }
+
+@media screen and (max-width:1024px) {
+
+    header svg{
+        display: block;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    section article{
+        width: 100%;
+    }
+
+    #sectionImage{
+        display: block;
+        img{
+            margin-top: 10%;
+        }
+    }
+}
+
+@media screen and (max-width:767px){
+
+    #sectionImage{
+        padding: 20px;
+        img{
+            margin-top: 30%;
+            margin-left: 10%;
+            width: 200px;
+        }
+        h1{
+            line-height: 4rem;
+        }
+    }
+}

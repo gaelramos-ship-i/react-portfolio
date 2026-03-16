@@ -6,6 +6,7 @@ import Contact from './Contact.tsx';
 import '../styles/home.scss';
 import '../styles/competences.scss';
 import '../styles/projects.scss';
+import { CiMenuBurger } from "react-icons/ci";
 
 const Home = () => {
     return (
@@ -13,6 +14,9 @@ const Home = () => {
     <header>
         <a id='title' href="/">Portfolio</a>
         <Navbar />
+        < CiMenuBurger
+        color='#fff' 
+        display='none' />
     </header>
 
     <main>
