@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Brigitte Bee",
-        "description": "Galerie d'art intégrer avec HTML/CSS.",
+        "description": "Galerie d'art intégrer en HTML/CSS.",
         "image": "/images/photo.jpg",
         "url": "https://gaelramos-ship-i.github.io/Brigitte-Bee/"
     },
@@ -11,13 +11,13 @@
         "title": "MeteoAPI",
         "description": "Une API de Meteo, en Javascript.",
         "image": "./images/meteo_image.jpg",
-        "url": "/"
+        "url": "https://gaelramos-ship-i.github.io/meteoAPI/"
     },
     {
         "id": 3,
-        "title": "To do List",
-        "description": "Gestionnaire de tâches en PHP.",
-        "image": "./images/todolist_image.jpg",
-        "url": "/"
+        "title": "Pourboire",
+        "description": "Gestionnaire de pourboire en React",
+        "image": "./images/pourboire.png",
+        "url": "https://pourboire.vercel.app/"
     }
 ]

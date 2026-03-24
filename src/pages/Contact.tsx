@@ -1,7 +1,7 @@
 import'../styles/contact.scss';
 import { CiMail } from "react-icons/ci";
 import { IoIosPhonePortrait } from "react-icons/io";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const  Contact = () => {
     return(
@@ -20,9 +20,9 @@ const  Contact = () => {
                     <p>07 66 27 10 20</p>
                 </article>
                 <article>
-                    <FaGithub />
-                    <a href="https://github.com/gaelramos-ship-i">
-                        <p>gaelramos-ship-i</p>
+                    <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/gaël-ramos-7714b0252" target='blank'>
+                        <p>Mon profil Linkedin</p>
                     </a>
                 </article>
             </div>
