@@ -7,6 +7,7 @@ type Project ={
     title: string;
     description: string;
     image: string;
+    url: string;
 };
 
 const Projects = () => {
@@ -30,6 +31,7 @@ const Projects = () => {
                             title={project.title}
                             description={project.description}
                             image={project.image}
+                            url={project.url}
                         />
                     ))
                 ) : (

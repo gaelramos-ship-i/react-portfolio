@@ -1,37 +1,47 @@
 [
     {
         "id": 1,
-        "title": "HTML/CSS",
-        "image": "/images/telechargement-removebg-preview.png"
+        "title": "HTML",
+        "image": "https://skillicons.dev/icons?i=html"
     },
     {
         "id": 2,
-        "title": "Javascript",
-        "image": "/images/JavaScript-Logo.png"
+        "title": "CSS",
+        "image": "https://skillicons.dev/icons?i=css"
     },
     {
         "id": 3,
-        "title": "React",
-        "image": "/images/react-1-logo-png-transparent.png"
+        "title": "Javascript",
+        "image": "https://skillicons.dev/icons?i=javascript"
     },
     {
         "id": 4,
-        "title": "PHP",
-        "image": "/images/png-clipart-php-web-development-perl-logo-php-logo-cdr-text.png"
+        "title": "React",
+        "image": "https://skillicons.dev/icons?i=react"
     },
     {
         "id": 5,
-        "title": "Python",
-        "image": "/images/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn-removebg-preview.png"
+        "title": "PHP",
+        "image": "https://skillicons.dev/icons?i=php"
     },
     {
         "id": 6,
-        "title": "SQL/Mongo",
-        "image": "/images/mongodb-removebg-preview.png"
+        "title": "Python",
+        "image": "https://skillicons.dev/icons?i=python"
     },
     {
         "id": 7,
+        "title": "mySQL",
+        "image": "https://skillicons.dev/icons?i=mysql"
+    },
+    {
+        "id": 8,
+        "title": "MongoDB",
+        "image": "https://skillicons.dev/icons?i=mongodb"
+    },
+    {
+        "id": 9,
         "title": "WordPress",
-        "image": "/images/hd-wordpress-logo-symbol-transparent.png"
+        "image": "https://skillicons.dev/icons?i=wordpress"
     }
 ]
