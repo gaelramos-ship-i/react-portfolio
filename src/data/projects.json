@@ -3,21 +3,21 @@
         "id": 2,
         "title": "SkillFacile",
         "description": "Accompagnement à la digitalisation (HTML/CSS)",
-        "image": "/images/skillfacile.png",
+        "image": "./images/skillfacile.png",
         "url": "https://gaelramos-ship-i.github.io/skillfacile/"
     },
     {
         "id": 1,
         "title": "Brigitte Bee",
         "description": "Intégration d'une galerie d'art (HTML/CSS)",
-        "image": "public/images/photo.jpg",
+        "image": "./images/photo.jpg",
         "url": "https://gaelramos-ship-i.github.io/Brigitte-Bee/"
     },
     {
         "id": 3,
         "title": "Malmaison",
         "description": "Location de bureaux d'entreprises (HTML/CSS)",
-        "image": "/images/logo-pagerie.jpg",
+        "image": "./images/logo-pagerie.jpg",
         "url": "https://gaelramos-ship-i.github.io/malmaison/"
     },
     {
