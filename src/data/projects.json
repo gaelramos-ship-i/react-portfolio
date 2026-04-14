@@ -1,23 +1,44 @@
 [
     {
+        "id": 2,
+        "title": "SkillFacile",
+        "description": "Accompagnement à la digitalisation (HTML/CSS)",
+        "image": "/images/skillfacile.png",
+        "url": "https://gaelramos-ship-i.github.io/skillfacile/"
+    },
+    {
         "id": 1,
         "title": "Brigitte Bee",
-        "description": "Galerie d'art intégrer en HTML/CSS.",
-        "image": "/images/photo.jpg",
+        "description": "Intégration d'une galerie d'art (HTML/CSS)",
+        "image": "public/images/photo.jpg",
         "url": "https://gaelramos-ship-i.github.io/Brigitte-Bee/"
     },
     {
-        "id": 2,
+        "id": 3,
+        "title": "Malmaison",
+        "description": "Location de bureaux d'entreprises (HTML/CSS)",
+        "image": "/images/logo-pagerie.jpg",
+        "url": "https://gaelramos-ship-i.github.io/malmaison/"
+    },
+    {
+        "id": 4,
         "title": "MeteoAPI",
         "description": "Une API de Meteo, en Javascript.",
         "image": "./images/meteo_image.jpg",
         "url": "https://gaelramos-ship-i.github.io/meteoAPI/"
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "Pourboire",
         "description": "Gestionnaire de pourboire en React",
         "image": "./images/pourboire.png",
         "url": "https://pourboire.vercel.app/"
+    },
+    {
+        "id": 6,
+        "title": "Gestionnaire de dépense",
+        "description": "Gestionnaire de dépense en React",
+        "image": "images/gestionnaire-depense .png",
+        "url": "https://gestion-depense-alpha.vercel.app/"
     }
 ]
